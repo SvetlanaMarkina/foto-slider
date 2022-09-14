@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap" rel="stylesheet">
+	<title>Практическое задание: слайдер с фото</title>
+</head>
+<body>
+	<main>
+		<section class="section-projects">
+            <div class="wrap">
+            	<nav class="nav-1">
+	                <ul class="projects-navigation">
+	                	<li class="projects-navigation__item projects-navigation__item1"><a  href="#">Rostov-on-Don, Admiral<hr class="item1-hr"></a></li>
+	                	<li class="projects-navigation__item"><a class="projects__item02" href="#" onclick="show()" id="item02">Sochi Thieves<hr class="item2-hr"></a></li>
+	                	<li class="projects-navigation__item"><a class="projects__item03" href="#">Rostov-on-Don Patriotic</a></li>
+	                </ul>
+                </nav>
+                <div class="projects">
+                	<div class="completedProjects">
+                	    <h2 class="subtitle">Completed<br>projects</h2>
+                	    <p class="projects-p">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction<br>market we have made happy more than 1000 families</p>
+                	    <div class="projects-item">
+                	    	<div class="projects-item__city">
+                	    	    <h3 class="subtitle-h3">City:</h3>
+                	    	    <div class="projects-div text01">Rostov-on-Don</br>LCD admiral</div>	
+                	    	</div>
+                	    	<div class="projects-item__area">
+                	    	    <h3 class="subtitle-h3">Apartment area:</h3>
+                	    	    <div class="projects-div text02">81 m2</div>	
+                	    	</div>
+                	    	<div class="projects-item__time">
+                	    	    <h3 class="subtitle-h3">Repair time:</h3>
+                	    	    <div class="projects-div text03">3.5 months</div>	
+                	    	</div>
+                	    	<div class="projects-item__cost">
+                	    	    <h3 class="subtitle-h3">Repair Cost:</h3>
+                	    	    <div class="projects-div text04">Upon request</div>	
+                	    	</div>
+                	    	
+                	    </div>
+                	    <div class="slider-arrows">
+                	        <a href="#"><img class="arrow-left slider-arrow" src="images/arrowLeft.svg" alt="Left arrow"></a>
+                	        <div class="slider__dots"></div>
+                	        <a href="#"><img class="arrow-right slider-arrow" src="images/arrowRight.svg" alt="Right arrow"></a>    	
+                	    </div>	
+                	</div>
+                	
+                	<div class="slider-foto"></div>	
+                	
+                </div>    	
+            </div>	
+        </section>
+	</main>
+    <script type="text/javascript" src="slider.js"></script>
+</body>
+</html>
